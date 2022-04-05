@@ -1,6 +1,6 @@
 :root {
 	--light-mode-elements: hsl(0, 0%, 98%);
-	--light-mode-bg: hsl(0, 0%, 96%);
+	--light-mode-bg: hsl(0, 0%, 90%);
 }
 
 * {
@@ -11,7 +11,6 @@
 
 .app {
 	background-color: var(--light-mode-bg);
-	min-height: 100vh;
 	height: 100%;
 }
 
