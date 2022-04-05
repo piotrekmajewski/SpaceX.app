@@ -4,7 +4,7 @@ import styles from './Favourites.module.css';
 function Favourites() {
 	return (
 		<div>
-			<p>Favourites</p>
+			<p></p>
 		</div>
 	);
 }

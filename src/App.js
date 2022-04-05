@@ -1,7 +1,7 @@
 import './App.css';
 import HomePage from './components/HomePage/HomePage';
 import Favourites from './components/Favourites/Favourites';
-import Lists from './components/Lists/Lists';
+import Table from './components/Table/Table';
 import Header from './components/Header/Header';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 		<div className='app'>
 			<Header />
 			<HomePage />
-			<Lists />
+			<Table />
 			<Favourites />
 		</div>
 	);
