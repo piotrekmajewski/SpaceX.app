@@ -1,0 +1,20 @@
+:root {
+	--light-mode-elements: hsl(0, 0%, 98%);
+	--light-mode-bg: hsl(0, 0%, 96%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app {
+	background-color: var(--light-mode-bg);
+	min-height: 100vh;
+	height: 100%;
+}
+
+.app_body {
+	max-width: 100vw;
+}

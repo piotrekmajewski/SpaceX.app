@@ -1,11 +1,13 @@
-import './SpaceXapp.css';
+import './App.css';
 import HomePage from './components/HomePage/HomePage';
 import Favourites from './components/Favourites/Favourites';
 import Lists from './components/Lists/Lists';
+import Header from './components/Header/Header';
 
-function SpaceXapp() {
+function App() {
 	return (
-		<div className='SpaceXapp'>
+		<div className='app'>
+			<Header />
 			<HomePage />
 			<Lists />
 			<Favourites />
@@ -13,4 +15,4 @@ function SpaceXapp() {
 	);
 }
 
-export default SpaceXapp;
+export default App;
