@@ -8,7 +8,9 @@ function Table() {
 				<table className={styles.table}>
 					<thead>
 						<tr>
-							<th className={styles.favourite}>Favourite</th>
+							<th className={styles.favourite}>
+								Add to favourite
+							</th>
 							<th>Data</th>
 							<th>Name</th>
 							<th className={styles.description}>Description</th>
@@ -16,61 +18,81 @@ function Table() {
 					</thead>
 					<tbody>
 						<tr>
-							<td className={styles.space}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 						</tr>
 						<tr>
-							<td className={styles.favourite}>SpaceX</td>
+							<td>
+								<input type='checkbox' />
+							</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
 							<td>SpaceX</td>
