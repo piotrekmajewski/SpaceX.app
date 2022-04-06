@@ -1,7 +1,20 @@
 import './Table.module.css';
+import { gql } from 'apollo-boost';
+import { useQuery } from '@apollo/react-hooks';
 import styles from './Table.module.css';
 
+const GET_LAUNCHES = gql`
+	{
+		launches {
+			launch_date_utc
+			mission_name
+		}
+	}
+`;
+
 function Table() {
+	const { loading, error, data } = useQuery(GET_LAUNCHES);
+	console.log(loading, error, data);
 	return (
 		<div className={styles.wrapper}>
 			<table className={styles.table}>

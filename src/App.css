@@ -11,9 +11,10 @@
 
 .app {
 	background-color: var(--light-mode-bg);
-	height: 100%;
+	height: 100vh;
 }
 
 .app_body {
 	max-width: 100vw;
+	max-height: 100vh;
 }
