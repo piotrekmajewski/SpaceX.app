@@ -3,6 +3,7 @@ import { gql } from '@apollo/client';
 import { useQuery } from '@apollo/react-hooks';
 import styles from './Table.module.css';
 import Description from '../Description/Description';
+import moment from 'moment';
 
 const GET_LAUNCHES = gql`
 	query Launches($limit: Int!) {
@@ -54,7 +55,9 @@ function Table() {
 								<td>
 									<input type='checkbox' />
 								</td>
-								<td>{date}</td>
+								<td>
+									{moment(date).format('dd MM yyyy, HH:mm')}
+								</td>
 								<td>{missionName}</td>
 								<td className={styles.description}>
 									{!!missionId ? (
