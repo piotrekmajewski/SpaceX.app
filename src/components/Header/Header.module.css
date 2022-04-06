@@ -1,8 +1,35 @@
 .header {
+	display: flex;
+	justify-content: space-between;
 	background: white;
 	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
 	transform: scale(0.5);
+}
+
+.btn_wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	display: flex;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+	margin: 0 8.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.3s;
+	color: #424242;
+}
+
+.button:hover {
+	background-color: rgba(100, 255, 126, 0.616);
+	box-shadow: 0px 3px 15px rgba(21, 255, 0, 0.322);
+	color: #00721cef;
 }
