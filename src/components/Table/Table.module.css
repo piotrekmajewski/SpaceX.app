@@ -21,6 +21,7 @@ thead {
 }
 
 th {
+	text-align: center;
 	padding: 1rem 7rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -34,7 +35,8 @@ th {
 }
 
 td {
-	padding: 1rem 7rem;
+	text-align: center;
+	padding: 1rem 3rem;
 }
 
 tr:nth-child(even) {
